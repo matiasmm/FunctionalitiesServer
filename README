@@ -1,0 +1,30 @@
+What is it for?
+===============
+
+It's a server you can use to add functionalities that are common to many applications. 
+
+The idea is: 
+    1. You register the application you are building
+    2. then you configure several functionalities you are about to use for your specific application.
+    3. From your application, you call the functionalities you need through RPC calls.
+
+When you build an application, there is allways something that is not specific for your application. So, you retrieve this kind of functionalities from third party libraries, plugins, etc, then you have to configure them for your application.
+
+Istead of doing this, the idea is to consume this kind of funcionalities as a service provided by an application that has this features already installed.
+
+What kind of functionalities does it have
+=========================================
+None :). Since it's recently started.
+
+
+
+Here some ideas:
+- Sending Emails
+- Uploading files
+- Creating Thumbnails
+- Adding static content to a web page..
+
+Whatever i need that can be used for other applications.
+
+
+
