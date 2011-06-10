@@ -1,0 +1,12 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AppServerBundle	ServerBundle/AppServerBundle.php	/^class AppServerBundle extends Bundle$/;"	c
+InitServerCommand	ServerBundle/Command/InitServerCommand.php	/^class InitServerCommand extends Command{$/;"	c
+ServerController	ServerBundle/Controller/ServerController.php	/^class ServerController extends Controller$/;"	c
+configure	ServerBundle/Command/InitServerCommand.php	/^    protected function configure(){$/;"	f
+execute	ServerBundle/Command/InitServerCommand.php	/^    protected function execute(InputInterface $input, OutputInterface $output){$/;"	f
+getServiceAction	ServerBundle/Controller/ServerController.php	/^    public function getServiceAction()$/;"	f
