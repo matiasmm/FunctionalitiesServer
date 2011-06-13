@@ -1,0 +1,13 @@
+_client:
+    pattern:  /client
+    defaults: { _controller: ClientBundle:Client:testService }
+
+
+_service_provider:
+    pattern:  /server/{object_name}
+    defaults: { _controller: AppServerBundle:Server:getService }
+
+configure_application:
+  resource: "App\ConfigureApplicationBundle\Controller\ConfigureApplicationController"
+  type: annotation
+ 

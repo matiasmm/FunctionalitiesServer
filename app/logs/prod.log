@@ -34,3 +34,327 @@
 [2011-06-08 20:06:08] request.ERROR: No route found for "GET /" 
 [2011-06-08 20:06:08] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /" (uncaught exception) at /home/matias/libs/symfony2.0/src/Symfony/Bundle/FrameworkBundle/RequestListener.php line 115 
 [2011-06-08 20:06:08] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-06-12 14:06:52] request.ERROR: No route found for "GET /" 
+[2011-06-12 14:06:52] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /" (uncaught exception) at /home/matias/libs/symfony2.0/src/Symfony/Bundle/FrameworkBundle/RequestListener.php line 115 
+[2011-06-12 14:06:52] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-06-12 21:07:24] request.ERROR: No route found for "GET /" 
+[2011-06-12 21:07:24] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /" (uncaught exception) at /home/matias/libs/symfony2.0/src/Symfony/Bundle/FrameworkBundle/RequestListener.php line 115 
+[2011-06-12 21:07:24] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-06-12 21:07:54] request.ERROR: No route found for "GET /" 
+[2011-06-12 21:07:54] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /" (uncaught exception) at /home/matias/libs/symfony2.0/src/Symfony/Bundle/FrameworkBundle/RequestListener.php line 115 
+[2011-06-12 21:07:54] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-06-12 21:09:03] request.ERROR: No route found for "GET /" 
+[2011-06-12 21:09:03] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /" (uncaught exception) at /home/matias/libs/symfony2.0/src/Symfony/Bundle/FrameworkBundle/RequestListener.php line 115 
+[2011-06-12 21:09:03] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-06-12 21:24:38] request.ERROR: No route found for "GET /" 
+[2011-06-12 21:24:38] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /" (uncaught exception) at /home/matias/libs/symfony2.0/src/Symfony/Bundle/FrameworkBundle/RequestListener.php line 115 
+[2011-06-12 21:24:38] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-06-12 21:24:42] request.ERROR: No route found for "GET /" 
+[2011-06-12 21:24:42] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /" (uncaught exception) at /home/matias/libs/symfony2.0/src/Symfony/Bundle/FrameworkBundle/RequestListener.php line 115 
+[2011-06-12 21:24:42] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-06-12 21:24:57] request.ERROR: No route found for "GET /" 
+[2011-06-12 21:24:57] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /" (uncaught exception) at /home/matias/libs/symfony2.0/src/Symfony/Bundle/FrameworkBundle/RequestListener.php line 115 
+[2011-06-12 21:24:57] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-06-12 21:27:23] request.ERROR: No route found for "GET /" 
+[2011-06-12 21:27:23] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /" (uncaught exception) at /home/matias/libs/symfony2.0/src/Symfony/Bundle/FrameworkBundle/RequestListener.php line 115 
+[2011-06-12 21:27:23] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-06-12 21:27:24] request.ERROR: No route found for "GET /" 
+[2011-06-12 21:27:24] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /" (uncaught exception) at /home/matias/libs/symfony2.0/src/Symfony/Bundle/FrameworkBundle/RequestListener.php line 115 
+[2011-06-12 21:27:24] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-06-12 21:27:24] request.ERROR: No route found for "GET /" 
+[2011-06-12 21:27:24] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /" (uncaught exception) at /home/matias/libs/symfony2.0/src/Symfony/Bundle/FrameworkBundle/RequestListener.php line 115 
+[2011-06-12 21:27:24] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-06-12 21:27:42] request.ERROR: No route found for "GET /" 
+[2011-06-12 21:27:42] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /" (uncaught exception) at /home/matias/libs/symfony2.0/src/Symfony/Bundle/FrameworkBundle/RequestListener.php line 115 
+[2011-06-12 21:27:42] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-06-12 21:27:43] request.ERROR: No route found for "GET /" 
+[2011-06-12 21:27:43] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /" (uncaught exception) at /home/matias/libs/symfony2.0/src/Symfony/Bundle/FrameworkBundle/RequestListener.php line 115 
+[2011-06-12 21:27:43] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-06-12 21:27:43] request.ERROR: No route found for "GET /" 
+[2011-06-12 21:27:44] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /" (uncaught exception) at /home/matias/libs/symfony2.0/src/Symfony/Bundle/FrameworkBundle/RequestListener.php line 115 
+[2011-06-12 21:27:44] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-06-12 21:28:25] request.ERROR: No route found for "GET /" 
+[2011-06-12 21:28:25] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /" (uncaught exception) at /home/matias/libs/symfony2.0/src/Symfony/Bundle/FrameworkBundle/RequestListener.php line 115 
+[2011-06-12 21:28:25] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-06-12 21:32:24] request.ERROR: No route found for "GET /" 
+[2011-06-12 21:32:24] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /" (uncaught exception) at /home/matias/libs/symfony2.0/src/Symfony/Bundle/FrameworkBundle/RequestListener.php line 115 
+[2011-06-12 21:32:24] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-06-12 21:34:23] request.ERROR: No route found for "GET /" 
+[2011-06-12 21:34:23] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /" (uncaught exception) at /home/matias/libs/symfony2.0/src/Symfony/Bundle/FrameworkBundle/RequestListener.php line 115 
+[2011-06-12 21:34:23] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-06-12 21:34:45] request.ERROR: No route found for "GET /" 
+[2011-06-12 21:34:45] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /" (uncaught exception) at /home/matias/libs/symfony2.0/src/Symfony/Bundle/FrameworkBundle/RequestListener.php line 115 
+[2011-06-12 21:34:45] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-06-12 21:43:40] request.INFO: Matched route "_client" (parameters: "_controller": "ClientClientBundle:Client:testService", "_route": "_client") 
+[2011-06-12 21:43:40] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-12 21:43:40] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-12 21:43:40] request.CRITICAL: InvalidArgumentException: Bundle "ClientClientBundle" does not exist or it is not enabled. Maybe you forgot to add it in the registerBundles() function of your AppKernel.php file? (uncaught exception) at /home/matias/workspace/ServPro/app/bootstrap.php.cache line 641 
+[2011-06-12 21:43:40] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-12 21:43:40] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-12 21:43:40] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-06-12 21:43:40] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-12 21:43:40] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-12 21:43:40] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-12 21:43:40] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-12 21:43:41] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-12 21:43:41] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-12 21:43:41] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-12 21:43:41] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener". 
+[2011-06-12 21:43:41] event.DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener" stopped propagation of the event "onCoreException". 
+[2011-06-12 21:43:41] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-12 21:43:41] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-12 21:43:41] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-12 21:46:16] request.INFO: Matched route "_client" (parameters: "_controller": "ClientClientBundle:Client:testService", "_route": "_client") 
+[2011-06-12 21:46:16] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-12 21:46:16] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-12 21:46:16] request.CRITICAL: InvalidArgumentException: Bundle "ClientClientBundle" does not exist or it is not enabled. Maybe you forgot to add it in the registerBundles() function of your AppKernel.php file? (uncaught exception) at /home/matias/workspace/ServPro/app/bootstrap.php.cache line 641 
+[2011-06-12 21:46:16] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-12 21:46:16] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-12 21:46:16] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-06-12 21:46:16] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-12 21:46:16] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-12 21:46:16] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-12 21:46:16] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-12 21:46:17] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-12 21:46:17] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-12 21:46:17] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-12 21:46:17] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener". 
+[2011-06-12 21:46:17] event.DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener" stopped propagation of the event "onCoreException". 
+[2011-06-12 21:46:17] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-12 21:46:17] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-12 21:46:17] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-12 21:47:07] request.INFO: Matched route "_client" (parameters: "_controller": "ClientClientBundle:Client:testService", "_route": "_client") 
+[2011-06-12 21:47:07] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-12 21:47:07] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-12 21:47:07] request.CRITICAL: InvalidArgumentException: Bundle "ClientClientBundle" does not exist or it is not enabled. Maybe you forgot to add it in the registerBundles() function of your AppKernel.php file? (uncaught exception) at /home/matias/workspace/ServPro/app/bootstrap.php.cache line 641 
+[2011-06-12 21:47:07] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-12 21:47:07] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-12 21:47:07] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-06-12 21:47:07] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-12 21:47:07] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-12 21:47:07] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-12 21:47:07] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-12 21:47:07] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-12 21:47:07] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-12 21:47:07] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-12 21:47:07] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener". 
+[2011-06-12 21:47:07] event.DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener" stopped propagation of the event "onCoreException". 
+[2011-06-12 21:47:07] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-12 21:47:07] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-12 21:47:07] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-12 21:51:55] request.INFO: Matched route "app_configureapplication_configureapplication_getservice" (parameters: "_controller": "App\ConfigureApplicationBundle\Controller\ConfigureApplicationController::getServiceAction", "_route": "app_configureapplication_configureapplication_getservice") 
+[2011-06-12 21:51:55] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-12 21:51:55] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-12 21:51:55] request.INFO: Using controller "App\ConfigureApplicationBundle\Controller\ConfigureApplicationController::getServiceAction" 
+[2011-06-12 21:51:55] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-12 21:51:55] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-12 21:51:55] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-12 21:51:55] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-12 21:51:55] request.CRITICAL: InvalidArgumentException: Template name "Waaaah" is not valid (format is "bundle:section:template.format.engine"). (uncaught exception) at /home/matias/workspace/ServPro/app/cache/prod/classes-1ad03.php line 425 
+[2011-06-12 21:51:55] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-12 21:51:55] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-12 21:51:55] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-06-12 21:51:55] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-12 21:51:55] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-12 21:51:55] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-12 21:51:55] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-12 21:51:56] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-12 21:51:56] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-12 21:51:56] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-12 21:51:56] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener". 
+[2011-06-12 21:51:56] event.DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener" stopped propagation of the event "onCoreException". 
+[2011-06-12 21:51:56] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-12 21:51:56] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-12 21:51:56] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-12 21:55:37] request.INFO: Matched route "app_configureapplication_configureapplication_getservice" (parameters: "_controller": "App\ConfigureApplicationBundle\Controller\ConfigureApplicationController::getServiceAction", "_route": "app_configureapplication_configureapplication_getservice") 
+[2011-06-12 21:55:37] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-12 21:55:37] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-12 21:55:37] request.INFO: Using controller "App\ConfigureApplicationBundle\Controller\ConfigureApplicationController::getServiceAction" 
+[2011-06-12 21:55:37] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-12 21:55:37] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-12 21:55:37] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-12 21:55:37] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-12 21:55:37] request.CRITICAL: InvalidArgumentException: Template name "Layou.php" is not valid (format is "bundle:section:template.format.engine"). (uncaught exception) at /home/matias/workspace/ServPro/app/cache/prod/classes-1ad03.php line 425 
+[2011-06-12 21:55:37] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-12 21:55:37] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-12 21:55:37] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-06-12 21:55:37] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-12 21:55:37] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-12 21:55:37] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-12 21:55:37] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-12 21:55:37] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-12 21:55:37] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-12 21:55:37] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-12 21:55:37] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener". 
+[2011-06-12 21:55:37] event.DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener" stopped propagation of the event "onCoreException". 
+[2011-06-12 21:55:37] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-12 21:55:37] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-12 21:55:37] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-12 21:56:42] request.INFO: Matched route "app_configureapplication_configureapplication_getservice" (parameters: "_controller": "App\ConfigureApplicationBundle\Controller\ConfigureApplicationController::getServiceAction", "_route": "app_configureapplication_configureapplication_getservice") 
+[2011-06-12 21:56:42] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-12 21:56:42] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-12 21:56:42] request.INFO: Using controller "App\ConfigureApplicationBundle\Controller\ConfigureApplicationController::getServiceAction" 
+[2011-06-12 21:56:42] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-12 21:56:42] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-12 21:56:42] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-12 21:56:42] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-12 21:56:42] request.CRITICAL: InvalidArgumentException: Template name "Layout.php" is not valid (format is "bundle:section:template.format.engine"). (uncaught exception) at /home/matias/workspace/ServPro/app/cache/prod/classes-1ad03.php line 425 
+[2011-06-12 21:56:42] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-12 21:56:42] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-12 21:56:42] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-06-12 21:56:42] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-12 21:56:42] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-12 21:56:42] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-12 21:56:42] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-12 21:56:42] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-12 21:56:42] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-12 21:56:42] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-12 21:56:42] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener". 
+[2011-06-12 21:56:42] event.DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener" stopped propagation of the event "onCoreException". 
+[2011-06-12 21:56:42] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-12 21:56:42] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-12 21:56:42] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-12 22:03:31] request.INFO: Matched route "app_configureapplication_configureapplication_getservice" (parameters: "_controller": "App\ConfigureApplicationBundle\Controller\ConfigureApplicationController::getServiceAction", "_route": "app_configureapplication_configureapplication_getservice") 
+[2011-06-12 22:03:31] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-12 22:03:31] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-12 22:03:31] request.INFO: Using controller "App\ConfigureApplicationBundle\Controller\ConfigureApplicationController::getServiceAction" 
+[2011-06-12 22:03:31] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-12 22:03:31] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-12 22:03:31] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-12 22:03:31] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-12 22:03:31] request.CRITICAL: InvalidArgumentException: Template name "Layout.php" is not valid (format is "bundle:section:template.format.engine"). (uncaught exception) at /home/matias/workspace/ServPro/app/cache/prod/classes-0967d.php line 425 
+[2011-06-12 22:03:31] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-12 22:03:31] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-12 22:03:31] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-06-12 22:03:31] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-12 22:03:31] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-12 22:03:31] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-12 22:03:31] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-12 22:03:32] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-12 22:03:32] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-12 22:03:32] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-12 22:03:32] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener". 
+[2011-06-12 22:03:32] event.DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener" stopped propagation of the event "onCoreException". 
+[2011-06-12 22:03:32] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-12 22:03:32] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-12 22:03:32] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-12 22:03:54] request.INFO: Matched route "app_configureapplication_configureapplication_getservice" (parameters: "_controller": "App\ConfigureApplicationBundle\Controller\ConfigureApplicationController::getServiceAction", "_route": "app_configureapplication_configureapplication_getservice") 
+[2011-06-12 22:03:54] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-12 22:03:54] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-12 22:03:54] request.INFO: Using controller "App\ConfigureApplicationBundle\Controller\ConfigureApplicationController::getServiceAction" 
+[2011-06-12 22:03:54] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-12 22:03:54] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-12 22:03:54] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-12 22:03:54] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-12 22:03:54] request.CRITICAL: InvalidArgumentException: Template name "ConfigureApplicationBundle:Frontend:Layout.php" is not valid (format is "bundle:section:template.format.engine"). (uncaught exception) at /home/matias/workspace/ServPro/app/cache/prod/classes-1ad03.php line 429 
+[2011-06-12 22:03:54] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-12 22:03:54] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-12 22:03:54] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-06-12 22:03:54] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-12 22:03:54] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-12 22:03:54] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-12 22:03:54] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-12 22:03:54] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-12 22:03:54] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-12 22:03:54] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-12 22:03:54] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener". 
+[2011-06-12 22:03:54] event.DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener" stopped propagation of the event "onCoreException". 
+[2011-06-12 22:03:54] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-12 22:03:54] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-12 22:03:54] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-12 22:04:26] request.INFO: Matched route "app_configureapplication_configureapplication_getservice" (parameters: "_controller": "App\ConfigureApplicationBundle\Controller\ConfigureApplicationController::getServiceAction", "_route": "app_configureapplication_configureapplication_getservice") 
+[2011-06-12 22:04:26] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-12 22:04:26] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-12 22:04:26] request.INFO: Using controller "App\ConfigureApplicationBundle\Controller\ConfigureApplicationController::getServiceAction" 
+[2011-06-12 22:04:26] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-12 22:04:26] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-12 22:04:26] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-12 22:04:26] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-12 22:04:26] request.CRITICAL: InvalidArgumentException: Template name "ConfigureApplicationBundle:Frontend:Layout.html.php" is not valid. (uncaught exception) at /home/matias/workspace/ServPro/app/cache/prod/classes-1ad03.php line 436 
+[2011-06-12 22:04:26] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-12 22:04:26] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-12 22:04:26] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-06-12 22:04:26] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-12 22:04:26] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-12 22:04:26] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-12 22:04:26] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-12 22:04:26] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-12 22:04:26] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-12 22:04:26] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-12 22:04:26] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener". 
+[2011-06-12 22:04:26] event.DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener" stopped propagation of the event "onCoreException". 
+[2011-06-12 22:04:26] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-12 22:04:26] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-12 22:04:26] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-12 22:05:28] request.INFO: Matched route "app_configureapplication_configureapplication_getservice" (parameters: "_controller": "App\ConfigureApplicationBundle\Controller\ConfigureApplicationController::getServiceAction", "_route": "app_configureapplication_configureapplication_getservice") 
+[2011-06-12 22:05:28] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-12 22:05:28] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-12 22:05:28] request.INFO: Using controller "App\ConfigureApplicationBundle\Controller\ConfigureApplicationController::getServiceAction" 
+[2011-06-12 22:05:28] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-12 22:05:28] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-12 22:05:28] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-12 22:05:28] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-12 22:05:28] request.CRITICAL: InvalidArgumentException: Template name "App/ConfigureApplicationBundle:Frontend:Layout.html.php" is not valid. (uncaught exception) at /home/matias/workspace/ServPro/app/cache/prod/classes-1ad03.php line 436 
+[2011-06-12 22:05:28] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-12 22:05:28] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-12 22:05:28] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-06-12 22:05:28] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-12 22:05:28] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-12 22:05:28] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-12 22:05:28] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-12 22:05:28] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-12 22:05:28] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-12 22:05:28] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-12 22:05:28] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener". 
+[2011-06-12 22:05:28] event.DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener" stopped propagation of the event "onCoreException". 
+[2011-06-12 22:05:28] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-12 22:05:28] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-12 22:05:28] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-12 22:05:42] request.INFO: Matched route "app_configureapplication_configureapplication_getservice" (parameters: "_controller": "App\ConfigureApplicationBundle\Controller\ConfigureApplicationController::getServiceAction", "_route": "app_configureapplication_configureapplication_getservice") 
+[2011-06-12 22:05:42] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-12 22:05:42] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-12 22:05:42] request.INFO: Using controller "App\ConfigureApplicationBundle\Controller\ConfigureApplicationController::getServiceAction" 
+[2011-06-12 22:05:42] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-12 22:05:42] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-12 22:05:42] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-12 22:05:42] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-12 22:05:42] request.CRITICAL: InvalidArgumentException: Template name "ConfigureApplicationBundle:Frontend:Layout.html.php" is not valid. (uncaught exception) at /home/matias/workspace/ServPro/app/cache/prod/classes-1ad03.php line 436 
+[2011-06-12 22:05:42] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-12 22:05:42] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-12 22:05:42] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-06-12 22:05:42] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-12 22:05:42] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-12 22:05:42] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-12 22:05:42] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-12 22:05:43] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-12 22:05:43] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-12 22:05:43] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-12 22:05:43] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener". 
+[2011-06-12 22:05:43] event.DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener" stopped propagation of the event "onCoreException". 
+[2011-06-12 22:05:43] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-12 22:05:43] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-12 22:05:43] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-12 22:06:06] request.INFO: Matched route "app_configureapplication_configureapplication_getservice" (parameters: "_controller": "App\ConfigureApplicationBundle\Controller\ConfigureApplicationController::getServiceAction", "_route": "app_configureapplication_configureapplication_getservice") 
+[2011-06-12 22:06:06] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-12 22:06:06] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-12 22:06:06] request.INFO: Using controller "App\ConfigureApplicationBundle\Controller\ConfigureApplicationController::getServiceAction" 
+[2011-06-12 22:06:06] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-12 22:06:06] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-12 22:06:06] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-12 22:06:06] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-12 22:06:06] request.CRITICAL: InvalidArgumentException: Template name "Frontend:Layout.html.php" is not valid (format is "bundle:section:template.format.engine"). (uncaught exception) at /home/matias/workspace/ServPro/app/cache/prod/classes-1ad03.php line 425 
+[2011-06-12 22:06:06] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-12 22:06:06] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-12 22:06:06] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-06-12 22:06:06] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-12 22:06:06] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-12 22:06:06] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-12 22:06:06] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-12 22:06:06] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-12 22:06:06] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-12 22:06:06] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-12 22:06:06] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener". 
+[2011-06-12 22:06:06] event.DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener" stopped propagation of the event "onCoreException". 
+[2011-06-12 22:06:06] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-12 22:06:06] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-12 22:06:06] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 

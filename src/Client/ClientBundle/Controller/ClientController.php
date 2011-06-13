@@ -13,6 +13,6 @@ class ClientController extends Controller
         $resp = $this->get("fs_client")
             ->get("thumbnail")
             ->getName();
-        var_dump($resp);
+        return new Response('<html><body>'.$resp.'</body></html>');
     }
 }

@@ -13,8 +13,6 @@ class ThumbnailExtension extends Extension
     {
         $loader = new XmlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.xml');
-        //require_once '/home/matias/workspace/ServPro/src/Functionalities/ThumbnailBundle/Lib/ThumbnailHandler.php';
-        //new \Functionalities\ThumbnailHandler();
     }
 
     public function getAlias()

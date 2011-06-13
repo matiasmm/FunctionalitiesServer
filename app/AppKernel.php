@@ -22,6 +22,9 @@ class AppKernel extends Kernel
             new JMS\SecurityExtraBundle\JMSSecurityExtraBundle(),
             new App\ServerBundle\AppServerBundle(),
             new Functionalities\ThumbnailBundle\ThumbnailBundle(),
+
+            new Client\ClientBundle\ClientBundle(),
+            new App\ConfigureApplicationBundle\ConfigureApplicationBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

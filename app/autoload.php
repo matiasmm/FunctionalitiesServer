@@ -13,12 +13,14 @@ $loader->registerNamespaces(array(
     'Monolog'          => __DIR__.'/../vendor/monolog/src',
     'Assetic'          => __DIR__.'/../vendor/assetic/src',
     'Metadata'         => __DIR__.'/../vendor/metadata/src',
-    'App'             => __DIR__.'/../src',
-    'Functionalities' => __DIR__.'/../src',
+    'App'              => __DIR__.'/../src',
+    'Functionalities'  => __DIR__.'/../src',
+    'Client'           => __DIR__.'/../src',
 ));
 $loader->registerPrefixes(array(
     'Twig_Extensions_' => __DIR__.'/../vendor/twig-extensions/lib',
     'Twig_'            => __DIR__.'/../vendor/twig/lib',
+    'jsonRPC'            => __DIR__.'/../vendor/json-rpc-php/',
 ));
 $loader->register();
 $loader->registerPrefixFallback(array(
