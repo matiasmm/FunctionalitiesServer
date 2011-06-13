@@ -13,7 +13,6 @@ use Symfony\Component\Routing\Exception\RouteNotFoundException;
 class appdevUrlGenerator extends Symfony\Component\Routing\Generator\UrlGenerator
 {
     static private $declaredRouteNames = array(
-       '_service_provider' => true,
        '_wdt' => true,
        '_profiler_search' => true,
        '_profiler_purge' => true,
@@ -24,6 +23,9 @@ class appdevUrlGenerator extends Symfony\Component\Routing\Generator\UrlGenerato
        '_configurator_home' => true,
        '_configurator_step' => true,
        '_configurator_final' => true,
+       '_client' => true,
+       '_service_provider' => true,
+       'app_configureapplication_configureapplication_getservice' => true,
     );
 
     /**
@@ -45,11 +47,6 @@ class appdevUrlGenerator extends Symfony\Component\Routing\Generator\UrlGenerato
         list($variables, $defaults, $requirements, $tokens) = $this->{'get'.$escapedName.'RouteInfo'}();
 
         return $this->doGenerate($variables, $defaults, $requirements, $tokens, $parameters, $name, $absolute);
-    }
-
-    private function get_service_providerRouteInfo()
-    {
-        return array(array (  0 => 'object_name',), array (  '_controller' => 'App\\ServerBundle\\Controller\\ServerController::getServiceAction',), array (), array (  0 =>   array (    0 => 'variable',    1 => '/',    2 => '[^/]+?',    3 => 'object_name',  ),  1 =>   array (    0 => 'text',    1 => '/server',  ),));
     }
 
     private function get_wdtRouteInfo()
@@ -100,5 +97,20 @@ class appdevUrlGenerator extends Symfony\Component\Routing\Generator\UrlGenerato
     private function get_configurator_finalRouteInfo()
     {
         return array(array (), array (  '_controller' => 'Symfony\\Bundle\\WebConfiguratorBundle\\Controller\\ConfiguratorController::finalAction',), array (), array (  0 =>   array (    0 => 'text',    1 => '/_configurator/final',  ),));
+    }
+
+    private function get_clientRouteInfo()
+    {
+        return array(array (), array (  '_controller' => 'Client\\ClientBundle\\Controller\\ClientController::testServiceAction',), array (), array (  0 =>   array (    0 => 'text',    1 => '/client',  ),));
+    }
+
+    private function get_service_providerRouteInfo()
+    {
+        return array(array (  0 => 'object_name',), array (  '_controller' => 'App\\ServerBundle\\Controller\\ServerController::getServiceAction',), array (), array (  0 =>   array (    0 => 'variable',    1 => '/',    2 => '[^/]+?',    3 => 'object_name',  ),  1 =>   array (    0 => 'text',    1 => '/server',  ),));
+    }
+
+    private function getapp_configureapplication_configureapplication_getserviceRouteInfo()
+    {
+        return array(array (), array (  '_controller' => 'App\\ConfigureApplicationBundle\\Controller\\ConfigureApplicationController::getServiceAction',), array (), array (  0 =>   array (    0 => 'text',    1 => '/',  ),));
     }
 }

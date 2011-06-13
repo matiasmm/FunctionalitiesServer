@@ -19,6 +19,8 @@
       <parameter key="JMSSecurityExtraBundle">JMS\SecurityExtraBundle\JMSSecurityExtraBundle</parameter>
       <parameter key="AppServerBundle">App\ServerBundle\AppServerBundle</parameter>
       <parameter key="ThumbnailBundle">Functionalities\ThumbnailBundle\ThumbnailBundle</parameter>
+      <parameter key="ClientBundle">Client\ClientBundle\ClientBundle</parameter>
+      <parameter key="ConfigureApplicationBundle">App\ConfigureApplicationBundle\ConfigureApplicationBundle</parameter>
       <parameter key="WebProfilerBundle">Symfony\Bundle\WebProfilerBundle\WebProfilerBundle</parameter>
       <parameter key="SymfonyWebConfiguratorBundle">Symfony\Bundle\WebConfiguratorBundle\SymfonyWebConfiguratorBundle</parameter>
     </parameter>
@@ -362,6 +364,7 @@
     <parameter key="security.extra.controller_listener.class">JMS\SecurityExtraBundle\Controller\ControllerListener</parameter>
     <parameter key="security.access.iddqd_voter.class">JMS\SecurityExtraBundle\Security\Authorization\Voter\IddqdVoter</parameter>
     <parameter key="security.extra.secure_all_services">false</parameter>
+    <parameter key="fs.client.server_url">http://servpro/app_dev.php/server</parameter>
     <parameter key="web_profiler.debug_toolbar.class">Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener</parameter>
     <parameter key="web_profiler.debug_toolbar.intercept_redirects">false</parameter>
     <parameter key="web_profiler.debug_toolbar.verbose">true</parameter>
@@ -1937,6 +1940,60 @@
               <argument type="service">
                 <service class="%assetic.directory_resource.class%" public="false">
                   <argument type="service" id="templating.loader"/>
+                  <argument>ClientBundle</argument>
+                  <argument>/home/matias/workspace/ServPro/app/Resources/ClientBundle/views</argument>
+                  <argument>/^[^.]+\.[^.]+\.twig$/</argument>
+                </service>
+              </argument>
+              <argument type="service">
+                <service class="%assetic.directory_resource.class%" public="false">
+                  <argument type="service" id="templating.loader"/>
+                  <argument>ClientBundle</argument>
+                  <argument>/home/matias/workspace/ServPro/src/Client/ClientBundle/Resources/views</argument>
+                  <argument>/^[^.]+\.[^.]+\.twig$/</argument>
+                </service>
+              </argument>
+            </argument>
+          </service>
+        </argument>
+        <argument>twig</argument>
+      </call>
+      <call method="addResource">
+        <argument type="service">
+          <service class="Assetic\Factory\Resource\CoalescingDirectoryResource" public="false">
+            <tag name="assetic.templating.twig"/>
+            <tag name="assetic.formula_resource" loader="twig"/>
+            <argument type="collection">
+              <argument type="service">
+                <service class="%assetic.directory_resource.class%" public="false">
+                  <argument type="service" id="templating.loader"/>
+                  <argument>ConfigureApplicationBundle</argument>
+                  <argument>/home/matias/workspace/ServPro/app/Resources/ConfigureApplicationBundle/views</argument>
+                  <argument>/^[^.]+\.[^.]+\.twig$/</argument>
+                </service>
+              </argument>
+              <argument type="service">
+                <service class="%assetic.directory_resource.class%" public="false">
+                  <argument type="service" id="templating.loader"/>
+                  <argument>ConfigureApplicationBundle</argument>
+                  <argument>/home/matias/workspace/ServPro/src/App/ConfigureApplicationBundle/Resources/views</argument>
+                  <argument>/^[^.]+\.[^.]+\.twig$/</argument>
+                </service>
+              </argument>
+            </argument>
+          </service>
+        </argument>
+        <argument>twig</argument>
+      </call>
+      <call method="addResource">
+        <argument type="service">
+          <service class="Assetic\Factory\Resource\CoalescingDirectoryResource" public="false">
+            <tag name="assetic.templating.twig"/>
+            <tag name="assetic.formula_resource" loader="twig"/>
+            <argument type="collection">
+              <argument type="service">
+                <service class="%assetic.directory_resource.class%" public="false">
+                  <argument type="service" id="templating.loader"/>
                   <argument>WebProfilerBundle</argument>
                   <argument>/home/matias/workspace/ServPro/app/Resources/WebProfilerBundle/views</argument>
                   <argument>/^[^.]+\.[^.]+\.twig$/</argument>
@@ -2079,6 +2136,11 @@
       <tag name="kernel.listener" event="onCoreController" priority="-255"/>
       <argument type="service" id="service_container"/>
       <argument type="service" id="annotation_reader"/>
+    </service>
+    <service id="fs_client" class="Client\ClientBundle\ClientHandler">
+      <call method="configure">
+        <argument>http://servpro/app_dev.php/server</argument>
+      </call>
     </service>
     <service id="web_profiler.debug_toolbar" class="Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener">
       <tag name="kernel.listener" event="onCoreResponse" priority="-128"/>

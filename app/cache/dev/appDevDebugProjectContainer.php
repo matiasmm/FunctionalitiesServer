@@ -83,6 +83,8 @@ class appDevDebugProjectContainer extends Container
         $instance->addResource(new \Assetic\Factory\Resource\CoalescingDirectoryResource(array(0 => new \Symfony\Bundle\AsseticBundle\Factory\Resource\DirectoryResource($a, 'JMSSecurityExtraBundle', '/home/matias/workspace/ServPro/app/Resources/JMSSecurityExtraBundle/views', '/^[^.]+\\.[^.]+\\.twig$/'), 1 => new \Symfony\Bundle\AsseticBundle\Factory\Resource\DirectoryResource($a, 'JMSSecurityExtraBundle', '/home/matias/workspace/ServPro/vendor/bundles/JMS/SecurityExtraBundle/Resources/views', '/^[^.]+\\.[^.]+\\.twig$/'))), 'twig');
         $instance->addResource(new \Assetic\Factory\Resource\CoalescingDirectoryResource(array(0 => new \Symfony\Bundle\AsseticBundle\Factory\Resource\DirectoryResource($a, 'AppServerBundle', '/home/matias/workspace/ServPro/app/Resources/AppServerBundle/views', '/^[^.]+\\.[^.]+\\.twig$/'), 1 => new \Symfony\Bundle\AsseticBundle\Factory\Resource\DirectoryResource($a, 'AppServerBundle', '/home/matias/workspace/ServPro/src/App/ServerBundle/Resources/views', '/^[^.]+\\.[^.]+\\.twig$/'))), 'twig');
         $instance->addResource(new \Assetic\Factory\Resource\CoalescingDirectoryResource(array(0 => new \Symfony\Bundle\AsseticBundle\Factory\Resource\DirectoryResource($a, 'ThumbnailBundle', '/home/matias/workspace/ServPro/app/Resources/ThumbnailBundle/views', '/^[^.]+\\.[^.]+\\.twig$/'), 1 => new \Symfony\Bundle\AsseticBundle\Factory\Resource\DirectoryResource($a, 'ThumbnailBundle', '/home/matias/workspace/ServPro/src/Functionalities/ThumbnailBundle/Resources/views', '/^[^.]+\\.[^.]+\\.twig$/'))), 'twig');
+        $instance->addResource(new \Assetic\Factory\Resource\CoalescingDirectoryResource(array(0 => new \Symfony\Bundle\AsseticBundle\Factory\Resource\DirectoryResource($a, 'ClientBundle', '/home/matias/workspace/ServPro/app/Resources/ClientBundle/views', '/^[^.]+\\.[^.]+\\.twig$/'), 1 => new \Symfony\Bundle\AsseticBundle\Factory\Resource\DirectoryResource($a, 'ClientBundle', '/home/matias/workspace/ServPro/src/Client/ClientBundle/Resources/views', '/^[^.]+\\.[^.]+\\.twig$/'))), 'twig');
+        $instance->addResource(new \Assetic\Factory\Resource\CoalescingDirectoryResource(array(0 => new \Symfony\Bundle\AsseticBundle\Factory\Resource\DirectoryResource($a, 'ConfigureApplicationBundle', '/home/matias/workspace/ServPro/app/Resources/ConfigureApplicationBundle/views', '/^[^.]+\\.[^.]+\\.twig$/'), 1 => new \Symfony\Bundle\AsseticBundle\Factory\Resource\DirectoryResource($a, 'ConfigureApplicationBundle', '/home/matias/workspace/ServPro/src/App/ConfigureApplicationBundle/Resources/views', '/^[^.]+\\.[^.]+\\.twig$/'))), 'twig');
         $instance->addResource(new \Assetic\Factory\Resource\CoalescingDirectoryResource(array(0 => new \Symfony\Bundle\AsseticBundle\Factory\Resource\DirectoryResource($a, 'WebProfilerBundle', '/home/matias/workspace/ServPro/app/Resources/WebProfilerBundle/views', '/^[^.]+\\.[^.]+\\.twig$/'), 1 => new \Symfony\Bundle\AsseticBundle\Factory\Resource\DirectoryResource($a, 'WebProfilerBundle', '/home/matias/libs/symfony2.0/src/Symfony/Bundle/WebProfilerBundle/Resources/views', '/^[^.]+\\.[^.]+\\.twig$/'))), 'twig');
         $instance->addResource(new \Assetic\Factory\Resource\CoalescingDirectoryResource(array(0 => new \Symfony\Bundle\AsseticBundle\Factory\Resource\DirectoryResource($a, 'SymfonyWebConfiguratorBundle', '/home/matias/workspace/ServPro/app/Resources/SymfonyWebConfiguratorBundle/views', '/^[^.]+\\.[^.]+\\.twig$/'), 1 => new \Symfony\Bundle\AsseticBundle\Factory\Resource\DirectoryResource($a, 'SymfonyWebConfiguratorBundle', '/home/matias/workspace/ServPro/vendor/bundles/Symfony/Bundle/WebConfiguratorBundle/Resources/views', '/^[^.]+\\.[^.]+\\.twig$/'))), 'twig');
         $instance->addResource(new \Symfony\Bundle\AsseticBundle\Factory\Resource\DirectoryResource($a, '', '/home/matias/workspace/ServPro/app/Resources/views', '/^[^.]+\\.[^.]+\\.twig$/'), 'twig');
@@ -849,6 +851,23 @@ class appDevDebugProjectContainer extends Container
     protected function getForm_TypeGuesser_ValidatorService()
     {
         return $this->services['form.type_guesser.validator'] = new \Symfony\Component\Form\Extension\Validator\ValidatorTypeGuesser($this->get('validator.mapping.class_metadata_factory'));
+    }
+
+    /**
+     * Gets the 'fs_client' service.
+     *
+     * This service is shared.
+     * This method always returns the same instance of the service.
+     *
+     * @return Client\ClientBundle\ClientHandler A Client\ClientBundle\ClientHandler instance.
+     */
+    protected function getFsClientService()
+    {
+        $this->services['fs_client'] = $instance = new \Client\ClientBundle\ClientHandler();
+
+        $instance->configure('http://servpro/app_dev.php/server');
+
+        return $instance;
     }
 
     /**
@@ -2272,6 +2291,8 @@ class appDevDebugProjectContainer extends Container
                 'JMSSecurityExtraBundle' => 'JMS\\SecurityExtraBundle\\JMSSecurityExtraBundle',
                 'AppServerBundle' => 'App\\ServerBundle\\AppServerBundle',
                 'ThumbnailBundle' => 'Functionalities\\ThumbnailBundle\\ThumbnailBundle',
+                'ClientBundle' => 'Client\\ClientBundle\\ClientBundle',
+                'ConfigureApplicationBundle' => 'App\\ConfigureApplicationBundle\\ConfigureApplicationBundle',
                 'WebProfilerBundle' => 'Symfony\\Bundle\\WebProfilerBundle\\WebProfilerBundle',
                 'SymfonyWebConfiguratorBundle' => 'Symfony\\Bundle\\WebConfiguratorBundle\\SymfonyWebConfiguratorBundle',
             ),
@@ -2627,6 +2648,7 @@ class appDevDebugProjectContainer extends Container
             'security.extra.controller_listener.class' => 'JMS\\SecurityExtraBundle\\Controller\\ControllerListener',
             'security.access.iddqd_voter.class' => 'JMS\\SecurityExtraBundle\\Security\\Authorization\\Voter\\IddqdVoter',
             'security.extra.secure_all_services' => false,
+            'fs.client.server_url' => 'http://servpro/app_dev.php/server',
             'web_profiler.debug_toolbar.class' => 'Symfony\\Bundle\\WebProfilerBundle\\WebDebugToolbarListener',
             'web_profiler.debug_toolbar.intercept_redirects' => false,
             'web_profiler.debug_toolbar.verbose' => true,
