@@ -1,5 +1,4 @@
 <?php
-
 use Symfony\Component\ClassLoader\UniversalClassLoader;
 
 $loader = new UniversalClassLoader();
@@ -23,7 +22,7 @@ $loader->registerPrefixes(array(
     'jsonRPC'            => __DIR__.'/../vendor/json-rpc-php/',
 ));
 $loader->register();
-$loader->registerPrefixFallback(array(
+$loader->registerPrefixFallbacks(array(
     __DIR__.'/../vendor/symfony/src/Symfony/Component/Locale/Resources/stubs',
 ));
 
