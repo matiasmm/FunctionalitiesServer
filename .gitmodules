@@ -64,3 +64,6 @@
 [submodule "vendor/metadata"]
 	path = vendor/metadata
 	url = git://github.com/schmittjoh/metadata.git
+[submodule "vendor/bundles/SensioGeneratorBundle"]
+	path = vendor/bundles/SensioGeneratorBundle
+	url = git://github.com/sensio/SensioGeneratorBundle.git

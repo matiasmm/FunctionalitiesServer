@@ -1,17 +1,14 @@
-<html>
-    <head>
-    </head>
-    <body>
-        <h1>Functionalities Server</h1>
+<?php $view->extend('::base.html.php') ?>
+<div>
+    List of applications already registred.
+</div>
+<form method="post">
+    <div>
         <div>
-            List of applications already registred.
+            Register a new application and start configuring it.
         </div>
-        <form>
-            <div>
-                Register a new application and start configuring it.
-                <input type="submit" value="Register application">
-            </div>
-        </form>
-
-    </body>
-</html>
+        <label for="app_name">Application name</label>
+        <input type="text" id="app_name" name="app_name">
+        <input type="submit" value="Register application">
+    </div>
+</form>

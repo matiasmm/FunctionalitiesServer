@@ -22,6 +22,7 @@ class AppKernel extends Kernel
             new JMS\SecurityExtraBundle\JMSSecurityExtraBundle(),
             new App\ServerBundle\AppServerBundle(),
             new Functionalities\ThumbnailBundle\ThumbnailBundle(),
+            new Symfony\Bundle\DoctrineMongoDBBundle\DoctrineMongoDBBundle(),
 
             new Client\ClientBundle\ClientBundle(),
             new App\ConfigureApplicationBundle\ConfigureApplicationBundle(),

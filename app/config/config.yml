@@ -10,7 +10,7 @@ framework:
     form:            true
     csrf_protection: true
     validation:      { enable_annotations: true }
-    templating:      { engines: ['twig'] } #assets_version: SomeVersionScheme
+    templating:      { engines: ['twig', 'php'] } #assets_version: SomeVersionScheme
     session:
         default_locale: %locale%
         lifetime:       3600
@@ -33,6 +33,21 @@ assetic:
         #     jar: %kernel.root_dir%/java/yuicompressor-2.4.2.jar
 
 # Doctrine Configuration
+doctrine_mongodb:
+    default_database: functionalities_server
+    default_document_manager: default
+    connections:
+      default:
+        server: mongodb://localhost:27017
+        options:
+          connect: true
+
+
+    document_managers:
+        default:
+          auto_mapping: true
+          database: functionalities_server
+
 doctrine:
     dbal:
         driver:   %database_driver%

@@ -26,5 +26,14 @@ Here some ideas:
 
 Whatever i need that can be used for other applications.
 
-
-
+Installation instructions
+=========================
+1. git clone git://github.com/matubaum/FunctionalitiesServer.git
+2. cd FunctionalitiesServer
+3. git submodule update --init
+4. chmod -R a+rwx app/cache 
+5. chmod -R a+rwx app/logs
+6. switch doctrine/common to branch 3.0.x
+    6.1 cd vendor/doctrine/common
+    6.2 git checkout origin/3.0.x
+    6.3 cd ../../../
